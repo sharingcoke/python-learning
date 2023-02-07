@@ -5,4 +5,6 @@ print("ljh+i")
 print("i love you", money)
 print(type(money))
 print(a, b)
-print("1+1=", b)
+
+print(9//4.0)
+print(2**4)
