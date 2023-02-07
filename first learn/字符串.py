@@ -18,5 +18,8 @@ name_2="help me"
 print(name_2+name_1)
 
 a=10
-name="字符串拼接：%d"%(a)
+b=12.36
+name="字符串拼接：%d以及%.1f"%(a,b)#
 print(name)
+print(f"1*2的结果{1*2}")
+#字符串格式化
