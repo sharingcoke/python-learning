@@ -6,5 +6,9 @@ print("i love you", money)
 print(type(money))
 print(a, b)
 
-print(9//4.0)
-print(2**4)
+print(9 // 4.0)
+print(2 ** 4)
+
+moneyy = int(input())
+bug = 100
+print("我比你有钱", bug > moneyy)
