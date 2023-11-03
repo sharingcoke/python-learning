@@ -9,6 +9,6 @@ pd.set_option('max_colwidth', 100)
 
 stock_zh_a_spot_em_df = ak.stock_zh_a_spot_em()
 print(stock_zh_a_spot_em_df)
-
-with open('output.txt', 'w') as file:
-    file.write(str(stock_zh_a_spot_em_df))
+column_data = stock_zh_a_spot_em_df['总市值']
+with open('市值.txt', 'w') as file:
+    file.write(str(column_data))
